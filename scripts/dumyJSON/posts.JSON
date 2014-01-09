@@ -1,0 +1,123 @@
+{
+	posts =[
+			{
+				City: "Mohali",
+				phone: 1234567890,
+				from: "phase 1",
+				to: "phase 10",
+				time: "08:00 AM",
+				seats: 3,
+				vehicle: "4 Wheeler",
+				vehicleModel: "Swift",
+				service: "AC",
+				price: 20
+			},
+			{
+				City: "Mohali",
+				phone: 0987654321,
+				from: "phase 5",
+				to: "phase 10",
+				time: "09:00 AM",
+				seats: 3,
+				vehicle: "4 Wheeler",
+				vehicleModel: "Ritz",
+				service: "AC",
+				price: 20
+			},
+			{
+				City: "Mohali",
+				phone: 1111111111,
+				from: "phase 3",
+				to: "phase 7",
+				time: "10:00 AM",
+				seats: 3,
+				vehicle: "4 Wheeler",
+				vehicleModel: "i10",
+				service: "AC",
+				price: 20
+			},
+			{
+				City: "Mohali",
+				phone: 2222222222,
+				from: "phase 5",
+				to: "phase 9",
+				time: "12:00 AM",
+				seats: 3,
+				vehicle: "4 Wheeler",
+				vehicleModel: "Santro",
+				service: "AC",
+				price: 20
+			},
+			{
+				City: "Mohali",
+				phone: 3333333333,
+				from: "phase 1",
+				to: "phase 10",
+				time: "10:00 AM",
+				seats: 3,
+				vehicle: "4 Wheeler",
+				vehicleModel: "ALto",
+				service: "AC",
+				price: 20
+			},{
+				City: "Mohali",
+				phone: 2323232323,
+				from: "phase 3",
+				to: "phase 8",
+				time: "08:00 AM",
+				seats: 3,
+				vehicle: "4 Wheeler",
+				vehicleModel: "Omini",
+				service: "AC",
+				price: 20
+			},
+			{
+				City: "Mohali",
+				phone: 9090909090,
+				from: "Franco",
+				to: "phase 10",
+				time: "09:00 AM",
+				seats: 3,
+				vehicle: "4 Wheeler",
+				vehicleModel: "Verna",
+				service: "AC",
+				price: 20
+			},
+			{
+				City: "Mohali",
+				phone: 9911882233,
+				from: "phase 10",
+				to: "phase 2",
+				time: "10:00 AM",
+				seats: 3,
+				vehicle: "4 Wheeler",
+				vehicleModel: "i20",
+				service: "AC",
+				price: 20
+			},
+			{
+				City: "Mohali",
+				phone: 7613229372,
+				from: "phase 5",
+				to: "sector 65",
+				time: "12:00 AM",
+				seats: 3,
+				vehicle: "4 Wheeler",
+				vehicleModel: "Zen",
+				service: "AC",
+				price: 20
+			},
+			{
+				City: "Mohali",
+				phone: 1234123412,
+				from: "SAS Nagar",
+				to: "phase 10",
+				time: "10:00 AM",
+				seats: 3,
+				vehicle: "4 Wheeler",
+				vehicleModel: "ALto",
+				service: "AC",
+				price: 20
+			}
+			]
+}
