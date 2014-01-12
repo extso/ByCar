@@ -1,24 +1,25 @@
 {
-	cityList = [{Chandigarh_Tricity : [
+	cityList : {Chandigarh_Tricity : [
 									"Chandigarh",
 									"Mohali",
 									"Panchkula"]
-				},{NCR : [
+				,NCR : [
 									"Noida",
 									"Delhi",
 									"Gurgaon",
 									"Ghaziabad",
 									"Faridabad"]
-				},{Bangalore: {}
-				},{Pune: {}
-				},{Mumbai: {}
-				},{Chennai: {}
-				},{Hyderabad: {}
-				},{Ahemdabad: {}
-				},{Jaipur: {}
-				},{Kochi: {}
-				},{Bhubneshwar: {}
-				},{Kolkata: {}
-				},{Others: []
-				}]
-}
+				,Bangalore: {}
+				,Pune: {}
+				,Mumbai: {}
+				,Chennai: {}
+				,Hyderabad: {}
+				,Ahemdabad: {}
+				,Jaipur: {}
+				,Kochi: {}
+				,Bhubneshwar: {}
+				,Kolkata: {}
+				,Others: []
+				}
+	};
+};
