@@ -30,24 +30,6 @@
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Select
             City</a>
             <ul class="dropdown-menu cityListItem">
-<!--               <li class="dropdown-header">North Region</li>
-              <li><a href="#">Chandigarh-Tricity</a></li>
-              <li><a href="#">NCR</a></li>
-              <li class="dropdown-header">South Region</li>
-              <li><a href="#">Bangalore</a></li>
-              <li><a href="#">Chennai</a></li>
-              <li><a href="#">Hyderabad</a></li>
-              <li><a href="#">Kochi</a></li>
-              <li class="dropdown-header">East Region</li>
-              <li><a href="#">Bhubneshwar</a></li>
-              <li><a href="#">Kolkata</a></li>
-              <li class="dropdown-header">West Region</li>
-              <li><a href="#">Ahemdabad</a></li>
-              <li><a href="#">Jaipur</a></li>
-              <li><a href="#">Mumbai</a></li>
-              <li><a href="#">Pune</a></li>
-              <li class="dropdown-header">Others</li>
-              <li><a href="#">Others</a></li> -->
             </ul>
           </li>
 
@@ -152,27 +134,91 @@
     <!-- Modal for login window-->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
-        <div class="modal-content" style="width:400px; height:330px">
+        <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             <h4 class="modal-title" id="myModalLabel">Please sign in</h4>
           </div>
-          <div class="modal-body">                
-            <input type="text" class="form-control" placeholder="Email address" required autofocus>
-            <input type="password" class="form-control" placeholder="Password" required>
-            <label class="checkbox">
-              <input type="checkbox" value="remember-me"> Remember me
-            </label>
-            <button type="button" class="btn btn-primary">Sign-in</button>
-          </div>
-          <div class="modal-footer">
-            <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
-            <button type="button" class="btn btn-primary">Sign-up</button>
+          <div class="modal-body">      
 
-          </div>
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                        Create account
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                      <input type="text" class="form-control" placeholder="First Name" required autofocus>
+                      <input type="text" class="form-control" placeholder="Last Name" required>
+                      <input type="text" class="form-control" placeholder="Email address" required>
+                      <input type="text" class="form-control" placeholder="Phone Number" required>
+                      <div class ="form-control">
+                        <input type="radio" name="sex" value="male"> Male
+                        <input type="radio" name="sex" value="female" class="genderRadio"> Female
+                      </div>
+                      <label class="signinLabel">Sign in with <a href="#">Facebook</a></label>
+                      <button type="button" class="btn btn-primary rightAllignBtn">Register</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                        Already have an account
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <input type="text" class="form-control" placeholder="Email address" required autofocus>
+                      <input type="password" class="form-control" placeholder="Password" required>
+                      <label class="checkbox">
+                        <input type="checkbox" value="remember-me"> Remember me
+                      </label>
+                      <button type="button" class="btn btn-primary rightAllignBtn">Sign-in</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                        I forgot my password
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <input type="text" class="form-control" placeholder="Email address/Phone number" required autofocus>
+                      <button type="button" class="btn btn-primary rightAllignBtn">Submit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+ 
+
+</div>
+
+
+          
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Sign-up</button>
+
+          </div> -->
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
+
+
 
 
 

@@ -97,3 +97,17 @@ body {
 .postRequestBtn{
   margin-top: -7%;
 }
+
+.rightAllignBtn{
+  margin: 3%;
+  float: right;
+}
+
+.genderRadio{
+  margin-left: 2% !important;
+}
+
+.signinLabel{
+  margin-top: 5%;
+  margin-left: 2%;
+}
