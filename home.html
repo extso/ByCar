@@ -92,6 +92,7 @@
   </div>
 
   <div id="citySelection" style="display: none">
+
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -103,31 +104,35 @@
 
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <!-- <li class="cityNameDisplay">City</li> -->
-            <li class="cityNameDisplay"><a><span></span></a></li>
+            <li class="dropdown cityNameDisplay">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"></a>
+              <ul class="dropdown-menu cityListItem">
+              </ul>
+            </li> 
+
             <li class="cityPostCount"><a><span id="cityPostCount" class="badge">42</span></a></li>
           </ul>
 
-          <ul class="nav navbar-nav navbar-right">
-          <!-- <li><a class="postRequestButton" href="../navbar/">Post Request</a></li> -->
-
-          <li id="userAction"><a></a></li>
-
-          <li><a><button type="button" class="btn btn-primary postRequestBtn" data-toggle="modal" data-target="#myModal">Post Request
-          </button></a></li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Change
-            City</a>
-            <ul class="dropdown-menu cityListItem">
-            </ul>
-          </li>
-        </ul>
+          <ul class="nav navbar-nav navbar-right">            
+            <li><a><button type="button" class="btn btn-primary postRequestBtn" data-toggle="modal" data-target="#myModal">Post Request
+            </button></a></li> 
+            <li class="dropdown active">
+              <a id="drop4" role="button" data-toggle="dropdown" href="#" class="glyphicon glyphicon-user">
+                <span class="userNameText">User</span> <b class="caret"></b></a>
+              <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Edit profile</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Sign out</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Something else here</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Separated link</a></li>
+              </ul>
+        </li>          
+          </ul>
             <!-- <li><a href="../navbar-static-top/">Static top</a></li>
             <li class="active"><a href="./">Fixed top</a></li> -->
-          </ul>
         </div><!--/.nav-collapse -->
       </div>
-    </div>
+    </div><!-- fixed navbar div ends -->
 
 
 
@@ -205,7 +210,7 @@
 
  
 
-</div>
+            </div>
 
 
           
@@ -225,7 +230,7 @@
     <div class="container">
       <!-- Main component for a primary marketing message or call to action -->
 
-      <div class="jumbotron">
+     <!--  <div class="jumbotron">
         <h1>Navbar example</h1>
 
         <p>This example is a quick exercise to illustrate how the default,
@@ -238,9 +243,84 @@
         <p><a class="btn btn-lg btn-primary" href=
         "../../components/#navbar">View navbar docs »</a></p>
       </div>
+ -->
+
+      <div class="row searchPanel">
+        <div class="col-md-3">
+          <div class="bs-sidebar hidden-print" role="complementary">
+            <ul class="nav bs-sidenav">              
+              <li><a href="#overview">Overview</a>
+                <ul class="nav">
+                  <li><a href="#overview-doctype">HTML5 doctype</a></li>
+                  <li><a href="#overview-mobile">Mobile first</a></li>
+                  <li><a href="#overview-responsive-images">Responsive images</a></li>
+                  <li><a href="#overview-type-links">Typography and links</a></li>
+                  <li><a href="#overview-normalize">Normalize</a></li>
+                  <li><a href="#overview-container">Containers</a></li>
+                </ul>
+              </li>              
+            </ul>
+          </div>
+        </div>
+      </div> <!-- seachpanel div ends here -->
+
+
+
+
+
+       <div class="bs-example postsPanel">
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Description</th>
+                  <th>Service Offered</th>
+                  <th>Posted by</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                </tr>
+                <tr>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                </tr>
+                <tr>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                </tr>
+              </tbody>
+            </table>
+          </div><!-- /.table-responsive -->
+        </div><!-- /.postsPanel -->
+
+        <div class="row addsPanel">
+        <div class="col-md-3">
+          <div class="bs-sidebar hidden-print" role="complementary">
+            <ul class="nav bs-sidenav">              
+              <li><a href="#overview">Overview</a>
+                <ul class="nav">
+                  <li><a href="#overview-doctype">HTML5 doctype</a></li>
+                  <li><a href="#overview-mobile">Mobile first</a></li>
+                  <li><a href="#overview-responsive-images">Responsive images</a></li>
+                  <li><a href="#overview-type-links">Typography and links</a></li>
+                  <li><a href="#overview-normalize">Normalize</a></li>
+                  <li><a href="#overview-container">Containers</a></li>
+                </ul>
+              </li>              
+            </ul>
+          </div>
+        </div>
+      </div> <!-- seachpanel div ends here -->
+
     </div><!-- /container -->
-  </div><!-- Bootstrap core JavaScript
-    ================================================== -->
+  </div><!-- / citySlection div ends-->
+
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="scripts/external/jquery-1.10.2.js"></script>
   <script src="scripts/external/underscore.js"></script>

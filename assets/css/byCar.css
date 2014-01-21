@@ -111,3 +111,28 @@ body {
   margin-top: 5%;
   margin-left: 2%;
 }
+
+.searchPanel{
+  width: 19%;
+  float: left;
+  border-right: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.postsPanel{
+  width: 60%;
+  margin-left: 2%;
+  margin-right: 2%;
+  float: left;
+}
+
+.addsPanel{
+  width: 19%;
+  float: left;
+  border-left: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.userNameText{
+  margin-left: 1px;
+}
