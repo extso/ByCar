@@ -122,9 +122,6 @@
               <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
                 <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Edit profile</a></li>
                 <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Sign out</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Something else here</a></li>
-                <li role="presentation" class="divider"></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Separated link</a></li>
               </ul>
         </li>          
           </ul>
@@ -148,14 +145,12 @@
 
               <div class="panel-group" id="accordion">
                 <div class="panel panel-default">
-                  <div class="panel-heading">
+                  <div class="panel-heading cursorPointer" data-toggle="collapse" data-parent="#accordion" href="#createAccount">
                     <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                         Create account
-                      </a>
                     </h4>
                   </div>
-                  <div id="collapseOne" class="panel-collapse collapse in">
+                  <div id="createAccount" class="panel-collapse collapse in">
                     <div class="panel-body">
                       <input type="text" class="form-control" placeholder="First Name" required autofocus>
                       <input type="text" class="form-control" placeholder="Last Name" required>
@@ -172,14 +167,12 @@
                 </div>
 
                 <div class="panel panel-default">
-                  <div class="panel-heading">
+                  <div class="panel-heading cursorPointer" data-toggle="collapse" data-parent="#accordion" href="#signIn">
                     <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                         Already have an account
-                      </a>
                     </h4>
                   </div>
-                  <div id="collapseTwo" class="panel-collapse collapse">
+                  <div id="signIn" class="panel-collapse collapse">
                     <div class="panel-body">
                       <input type="text" class="form-control" placeholder="Email address" required autofocus>
                       <input type="password" class="form-control" placeholder="Password" required>
@@ -192,14 +185,12 @@
                 </div>
 
                 <div class="panel panel-default">
-                  <div class="panel-heading">
+                  <div class="panel-heading cursorPointer" data-toggle="collapse" data-parent="#accordion" href="#forgotPassword">
                     <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                         I forgot my password
-                      </a>
                     </h4>
                   </div>
-                  <div id="collapseThree" class="panel-collapse collapse">
+                  <div id="forgotPassword" class="panel-collapse collapse">
                     <div class="panel-body">
                       <input type="text" class="form-control" placeholder="Email address / Phone number" required autofocus>
                       <button type="button" class="btn btn-primary rightAllignBtn">Submit</button>
@@ -231,7 +222,7 @@
       <!-- Main component for a primary marketing message or call to action -->
 
      <!--  <div class="jumbotron">
-        <h1>Navbar example</h1>
+        <h1>Nav bar example</h1>
 
         <p>This example is a quick exercise to illustrate how the default,
         static and fixed to top navbar work. It includes the responsive CSS and
@@ -247,7 +238,7 @@
 
       <div class="row searchPanel">
         <div class="col-md-3">
-          <div class="bs-sidebar hidden-print" role="complementary">
+          <div class="bs-sidebar hidden-print affix" role="complementary">
             <ul class="nav bs-sidenav">              
               <li><a href="#overview">Overview</a>
                 <ul class="nav">
@@ -268,40 +259,26 @@
 
 
 
-       <div class="bs-example postsPanel">
-          <div class="table-responsive">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th>Description</th>
-                  <th>Service Offered</th>
-                  <th>Posted by</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Table cell</td>
-                  <td>Table cell</td>
-                  <td>Table cell</td>
-                </tr>
-                <tr>
-                  <td>Table cell</td>
-                  <td>Table cell</td>
-                  <td>Table cell</td>
-                </tr>
-                <tr>
-                  <td>Table cell</td>
-                  <td>Table cell</td>
-                  <td>Table cell</td>
-                </tr>
-              </tbody>
-            </table>
-          </div><!-- /.table-responsive -->
+       <div class=" postsPanel">
+                   <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                      <div class="panel-heading cursorPointer" data-toggle="collapse" data-parent="#accordion" href="#collapseOne1">
+                        <h4 class="panel-title">                          
+                            From: Phase-5  To: Phase-11  At: 9:00 am Date: 26-Jan                          
+                        </h4>
+                      </div>
+                      <div id="collapseOne1" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
         </div><!-- /.postsPanel -->
 
         <div class="row addsPanel">
         <div class="col-md-3">
-          <div class="bs-sidebar hidden-print" role="complementary">
+          <div class="bs-sidebar hidden-print affix" role="complementary">
             <ul class="nav bs-sidenav">              
               <li><a href="#overview">Overview</a>
                 <ul class="nav">

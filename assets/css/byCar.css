@@ -120,10 +120,14 @@ body {
 }
 
 .postsPanel{
-  width: 60%;
-  margin-left: 2%;
+  width: 65%;
+  /*margin-left: 2%;*/
   margin-right: 2%;
   float: left;
+  border-right: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .addsPanel{
@@ -135,4 +139,20 @@ body {
 
 .userNameText{
   margin-left: 1px;
+}
+
+.bs-sidenav{
+  /*margin-top: 30px;
+  margin-bottom: 30px;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 0 #fff;
+  /*background-color: #f7f5fa;*/
+  /*border-right: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;*/
+  border-radius: 2px;
+}
+
+.cursorPointer{
+  cursor:pointer
 }
