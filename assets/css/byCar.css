@@ -94,8 +94,40 @@ body {
   margin-left: -8%;
 }
 
+@media screen and (max-width: 768px) {
+    .cityPostCount
+    {
+      margin-left: 0;
+    }
+}
+
 .postRequestBtn{
   margin-top: -7%;
+}
+
+@media screen and (max-width: 768px) {
+    .postRequestBtn
+    {
+      margin-top: 0;
+    }
+}
+
+.defaultButton
+{
+  height: 2.142em;
+  min-width: 6em;
+  font-family: "Segoe UI Semibold", "Segoe UI Web Semibold", "Segoe UI Web Regular", "Segoe UI", "Segoe UI Symbol","HelveticaNeue-Medium", "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  background-color: #0072C6;
+  color: #fff;
+  padding: 3px 12px 5px;
+  border: 0px;
+}
+
+.defaultButton:hover
+{
+  background-color: #1E82CC;
 }
 
 .rightAllignBtn{
@@ -155,4 +187,9 @@ body {
 
 .cursorPointer{
   cursor:pointer
+}
+
+.whiteBackground
+{
+  background: white !important;
 }
