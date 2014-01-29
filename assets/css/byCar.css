@@ -78,13 +78,22 @@ body {
   }
 }
 
+/* these classes is to manipulate the predefined bootstrap css class */
 .navbar-default .navbar-nav > li > a:hover{
-  /*background-color: #e7e7e7 !important;*/
-}
-
-.cityNameDisplay{
   color: #428bca !important;
 }
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color: rgb(229, 242, 255);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-nav .open .dropdown-menu > li > a:hover
+  {
+    background-color: rgb(229, 242, 255) !important;
+  }
+}
+
 
 .cityNameDisplaye:hover{
     background-color: transparent; !important;

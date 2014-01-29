@@ -19,7 +19,7 @@ controller.prototype.changeView = function(event){
 		$('body').css('min-height', '2000px');
 		$('body').css('padding-top', '70px');
 		$('.container').css('max-width', '1170px');
-		$('.cityNameDisplay > a').text(selectedCity);
+		$('#selectedCityNameList > a').text(selectedCity);
 		$('#cityPostCount').text("007");// to change the text of post count badge
 	// });
 };
